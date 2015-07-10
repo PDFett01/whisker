@@ -5,3 +5,15 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
+
+8.times do |n|
+     a = Contestant.new
+    a.name =  Faker::Name.name
+    a.club =  Faker::Team.club
+    a.city =  Faker::Address.city
+    a.style = Faker::Team.style
+    a.competitions = Faker::Team.competitions
+
+    a.save
+end

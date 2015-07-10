@@ -4,6 +4,7 @@ source 'https://rubygems.org'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.1'
 gem 'high_voltage', '~> 2.3.0'
+gem 'faker'
 # Use mysql as the database for Active Record
 gem 'mysql2'
 # Use SCSS for stylesheets
