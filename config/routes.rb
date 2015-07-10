@@ -10,7 +10,28 @@ Rails.application.routes.draw do
   #   get 'products/:id' => 'catalog#view'
     get 'action', :to => 'static#:action'
 
-    
+    get '/index' => 'high_voltage/pages#show', id: 'index'
+    get '/members' => 'high_voltage/pages#show', id: 'members'
+    get '/contact' => 'high_voltage/pages#show', id: 'contact'
+    get '/calender' => 'high_voltage/pages#show', id: 'calender'
+    get '/elder'    => 'high_voltage/pages#show', id: 'elder'
+    get '/gore'    => 'high_voltage/pages#show', id: 'gore'
+    get '/stephen'    => 'high_voltage/pages#show', id: 'stephen'
+    get '/patrick'    => 'high_voltage/pages#show', id: 'patrick'
+    get '/sean'    => 'high_voltage/pages#show', id: 'sean'
+    get '/austin'    => 'high_voltage/pages#show', id: 'austin'
+    get '/josh'    => 'high_voltage/pages#show', id: 'josh'
+    get '/blake'    => 'high_voltage/pages#show', id: 'blake'
+    get '/melissa'    => 'high_voltage/pages#show', id: 'melissa'
+    get '/dave'    => 'high_voltage/pages#show', id: 'dave'
+    get '/dustin'    => 'high_voltage/pages#show', id: 'dustin'
+    get '/laura'    => 'high_voltage/pages#show', id: 'laura'
+
+
+
+
+
+
   # Example of named route that can be invoked with purchase_url(id: product.id)
   #   get 'products/:id/purchase' => 'catalog#purchase', as: :purchase
 
