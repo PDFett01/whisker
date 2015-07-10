@@ -1,0 +1,248 @@
+/***************************************
+GENERAL
+***************************************/
+
+#wrapper {
+	max-width: 600px;
+	margin: 0 auto;
+	padding: 0 5%;
+} 
+
+a {
+	text-decoration: none;
+}
+
+img {
+	max-width: 100%;
+}
+
+h4 {
+	text-align: center;
+}
+
+
+
+/***************************************
+HEADING
+***************************************/
+
+header {
+	margin: 0;
+	padding: 5em 0 5em 0;
+	width: 100%
+}
+/*
+ header {
+	background: blue;
+} 
+*/
+#front {
+	border: 0;
+	margin: 0;
+	padding: 0 0 0 0;
+}
+
+#logo {
+	text-align: center;
+	margin: 0;
+}
+
+#welcome {
+	float: clear;
+}
+
+
+#top{
+	font-family: 'Anton', san-serif;
+	margin: 15px 0;
+	font-size: 2.75em;
+	font-weight: normal;
+	line-height: 0.8em;
+}
+
+#middle{
+	font-size: 1.75em;
+	margin: -5px 0 0;
+	font-weight: normal;
+}
+
+#bottom {
+	font-size: 1.25em;
+	margin: -5px 0 0;
+	font-weight: normal;
+}	
+
+
+/***************************************
+BODY
+***************************************/
+
+#welcometo {
+	padding-bottom: 1em;
+	text-align: center;
+}
+
+	#primary {
+		clear: both;
+		width: 45%;
+		float: left;
+		margin: 1em 1em;
+		display: block;
+	}
+	
+	#secondary {
+		width: 45%;
+		float: right;
+		margin: 1em 1em;
+		display: block;
+	}
+/***************************************
+NAVAGATION
+***************************************/
+
+nav {
+	text-align: center;
+	padding: 10px 0;
+	margin: 20 px 0 0;
+}
+
+nav ul{
+	list-style: none;
+	margin: 0 10px;
+	padding: 0;
+}
+
+nav li {
+	display: inline-block;
+}
+
+nav a {
+	font-weight: 800;
+	padding: 15px 10px;
+}
+
+/***************************************
+FOOTER
+***************************************/
+
+footer{
+	font-size: 0.75em;
+	text-align: center;
+	clear: both;
+	padding-top: 50px;
+}
+
+/***************************************
+MEMBERS
+***************************************/
+
+#gallery1 {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#gallery2 {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+
+#gallery1 li{
+	float: left;
+	width: 20%;
+	margin: 2.5%;
+}
+
+#gallery2 li{
+	float: left;
+	width: 20%;
+	margin: 2.5%;
+}
+
+/***************************************
+CONTACT
+***************************************/
+
+#contact-info {
+	list-style: none; 
+}
+
+
+/***************************************
+COLORS
+***************************************/
+
+#top, #middle, #bottom {
+	color: navy;
+}
+
+nav {
+	color: navy;
+}
+
+nav a, nav a:visited {
+	color: navy;
+}
+
+nav a.selected, nav a:hover {
+	color: navy;
+}
+
+section ul li a p{
+	color: navy;
+}
+
+section ul li a {
+	color: navy;
+}
+
+/*************************************
+MEMBER PAGES
+*************************************/
+
+.memberpage {
+	border-radius: 100%;
+	max-width: 250px;
+	margin-left: 10%;
+	margin-top: 50px;
+	float: left;
+}
+
+#questions {
+	float: right;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+h5 {
+	text-align: center;
+	font-size: 1.75em;
+	margin: 0;
+}
+	
+/***************************************
+CALENDAR
+***************************************/
+
+.calendar-container {
+	width: 50%;
+	margin: auto;
+	max-width: 100%;
+}
+
+.calendar-container {
+    position: relative;
+    padding-bottom: 50%;
+    height: 0;
+    overflow: hidden;
+}
+
+.calendar-container iframe {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
