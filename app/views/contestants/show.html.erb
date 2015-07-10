@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @contestant.name %>
+</p>
+
+<p>
+  <strong>Club:</strong>
+  <%= @contestant.club %>
+</p>
+
+<p>
+  <strong>City:</strong>
+  <%= @contestant.city %>
+</p>
+
+<p>
+  <strong>Style:</strong>
+  <%= @contestant.style %>
+</p>
+
+<p>
+  <strong>Competitions:</strong>
+  <%= @contestant.competitions %>
+</p>
+
+<%= link_to 'Edit', edit_contestant_path(@contestant) %> |
+<%= link_to 'Back', contestants_path %>

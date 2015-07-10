@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  club: MyString
+  city: MyString
+  style: MyString
+  competitions: 1
+
+two:
+  name: MyString
+  club: MyString
+  city: MyString
+  style: MyString
+  competitions: 1
