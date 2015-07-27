@@ -25,7 +25,7 @@
   </div>
   <div class="field">
     <%= f.label :style %><br>
-    <%= f.text_field :style %>
+    <%= f.collection_select :style, Contestant::STYLE, :to_s, :to_s %>
   </div>
   <div class="field">
     <%= f.label :competitions %><br>
