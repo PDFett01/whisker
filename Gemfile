@@ -5,6 +5,7 @@ source 'https://rubygems.org'
 gem 'rails', '4.2.1'
 gem 'high_voltage', '~> 2.3.0'
 gem 'faker'
+gem 'simple_form'
 # Use mysql as the database for Active Record
 gem 'mysql2'
 # Use SCSS for stylesheets
