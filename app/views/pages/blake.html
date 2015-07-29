@@ -2,22 +2,20 @@
 <html>
   <head>
 	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Derby City Whisker Club</title>
-	<link rel="stylesheet" href="css/normalize.css">
 	<link href='http://fonts.googleapis.com/css?family=Anton' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" href="css/main.css">
-	<link rel="stylesheet" href="css/responsive.css">
-	<link rel="stylesheet" href="css/memberpages.css">
+	
   </head>
    <body>
    <header>
-		<a href="index.html" id="logo">
+		<a href="index.html" id="logo" class="text-center">
 			<h1 id="top">The Derby City Whisker Club</h1>
 			<h2 id="middle">Louisville, Kentucky</h2>
 			<h3 id="bottom">Est. 2011</h3>
 		</a>
 		<nav>
-			<ul>
+			<ul class="list-inline text-center">
 			<li><a href="index.html" class="selected">Home</a></li>
 			<li><a href="members.html">Members</a></li>
 			<li><a href="contact.html">Contact</a></li>
@@ -26,34 +24,39 @@
 			</ul>
 		</nav>
    </header>
-		<div id="memberpic">
-			<img src="assets/blake.jpg" alt="Blake Ulmer" class="memberpage">
-		</div>
-			<h5> Blake Ulmer </h5>
-		<div id="questions">	
-			<p> <b> When did you first grow your facial hair? </b> </p>
-			<p></p>
-			<p>	<b> What was your first club event? </b> </p>
-			<p></p>
-			<p>	<b> What is your drink of choice? </b> </p>
-			<p></p>
-			<p>	<b> What is the weirdest thing you have ever got caught in your beard? </b> </p>
-			<p></p>
-			<p>	<b> What competitions have you attended? </b> </p>
-			<p></p>
-			<p>	<b> What bearding awards have you won? </b> </p>
-			<p></p>
-			<p>	<b> What is your favorite bearding memory? </b> </p>
-			<p></p>
-			<p>	<b> What is your bearding nickname? </b> </p>
-			<p></p>	
-			<p>	<b> Why did you choice your particular facial hair style? </b> </p>
-			<p></p>
-			<p>	<b> What is the weirdest complement someone has ever give you in regards to your facial hair? </b> </p>
+		<div class="container">
+		  <div class="row">	
+			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">  
+				<img src="assets/blake.jpg" alt="Blake Ulmer" class="img-thumbnail" class="memberpage">
+			</div>
 			
-		</div>
-		<footer>
+			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">	
+				<h2 class="text-center"> Blake Ulmer </h2>
+				<p> <b> When did you first grow your facial hair? </b> </p>
+				<p></p>
+				<p>	<b> What was your first club event? </b> </p>
+				<p></p>
+				<p>	<b> What is your drink of choice? </b> </p>
+				<p></p>
+				<p>	<b> What is the weirdest thing you have ever got caught in your beard? </b> </p>
+				<p></p>
+				<p>	<b> What competitions have you attended? </b> </p>
+				<p></p>
+				<p>	<b> What bearding awards have you won? </b> </p>
+				<p></p>
+				<p>	<b> What is your favorite bearding memory? </b> </p>
+				<p></p>
+				<p>	<b> What is your bearding nickname? </b> </p>
+				<p></p>	
+				<p>	<b> Why did you choice your particular facial hair style? </b> </p>
+				<p></p>
+				<p>	<b> What is the weirdest complement someone has ever give you in regards to your facial hair? </b> </p>
+			</div>
+		  </div>	
+		</div>	
+		<footer class="text-center">
 			<p>&copy; 2011 - 2015 Derby City Whisker Club</p>
 		</footer>
+		<script src="bootstrap/js/bootstrap.min.js"></script>
    </body>
 </html>

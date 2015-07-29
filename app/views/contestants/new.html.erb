@@ -1,35 +1,36 @@
 <html>
   <head>
 	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Derby City Whisker Club</title>
 	<link rel="stylesheet" href="css/normalize.css">
 	<link href='http://fonts.googleapis.com/css?family=Anton' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" href="css/main.css">
-	<link rel="stylesheet" href="css/responsive.css">
-	<link rel="stylesheet" href="css/memberpages.css">
+	
   </head>
    <body>
    <header>
-		<a href="index.html" id="logo">
+		<a href="index.html" id="logo" class="text-center">
 			<h1 id="top">The Derby City Whisker Club</h1>
 			<h2 id="middle">Louisville, Kentucky</h2>
 			<h3 id="bottom">Est. 2011</h3>
 		</a>		
    </header>
 	<div class="row">
-	<div class="span6">
+	<div class="col-lg-4 col-lg-offset-2 col-md-4 col-md-offset-2 col-sm-6 col-xs-9 col-xs-offset-3 centered">
 	<%= render 'form' %>
 
 	<%= link_to 'Back', contestants_path %>
 	</div>
-	<div class="span6">
-	<img src="/assets/mania.jpg" alt="Whiskermania Poster">	
+	<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+	<img src="/assets/mania.jpg" class="img-thumbnail"  alt="Whiskermania Poster">	
 	</div>
 	</div>	
-		<footer>
+		<footer class="text-center">
 			<p>&copy; 2011 - 2015 Derby City Whisker Club</p>
 		</footer>
+   <script src="bootstrap/js/bootstrap.min.js"></script>
    </body>
+
 </html>
 
 

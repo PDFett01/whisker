@@ -26,7 +26,11 @@ Rails.application.routes.draw do
     get '/dave'    => 'high_voltage/pages#show', id: 'dave'
     get '/dustin'    => 'high_voltage/pages#show', id: 'dustin'
     get '/laura'    => 'high_voltage/pages#show', id: 'laura'
-
+    get '/jason'    => 'high_voltage/pages#show', id: 'jason'
+    get '/adina'    => 'high_voltage/pages#show', id: 'adina'
+    get '/carrie'    => 'high_voltage/pages#show', id: 'carrie'
+    get '/geno'    => 'high_voltage/pages#show', id: 'geno'
+		
 
 
 
